@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.company.qa2.tests.AddContactTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-02-05T01:54:58" hostname="ALEKSEICOMPUTER" time="26.087">
+  <properties/>
+  <testcase name="addContactPositiveFromCSVTest[0](Contact{phone='88008885553', email='iv888@gm.com'})" classname="ru.company.qa2.tests.AddContactTests" time="2.969"/>
+  <testcase name="addContactPositiveFromCSVTest[1](Contact{phone='88007775553', email='iv777@gm.com'})" classname="ru.company.qa2.tests.AddContactTests" time="2.288"/>
+  <testcase name="addContactPositiveFromCSVTest[2](Contact{phone='88009995553', email='iv999@gm.com'})" classname="ru.company.qa2.tests.AddContactTests" time="2.262"/>
+  <testcase name="addContactPositiveFromDataProviderTest[0](Ivan, Ivanov, 88007775553, iv@gm.com, Ivanovo, description)" classname="ru.company.qa2.tests.AddContactTests" time="12.017"/>
+  <testcase name="addContactPositiveFromDataProviderTest[1](Ivan, Ivanov, 88004445553, iv1@gm.com, Ivanovo, description)" classname="ru.company.qa2.tests.AddContactTests" time="2.259"/>
+  <testcase name="addContactPositiveFromDataProviderTest[2](Ivan, Ivanov, 88002225553, iv78@gm.com, Ivanovo, description)" classname="ru.company.qa2.tests.AddContactTests" time="2.197"/>
+  <testcase name="addContactPositiveTest" classname="ru.company.qa2.tests.AddContactTests" time="2.029"/>
+  <system-out><![CDATA[04:54:48.272 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start test addContactPositiveFromCSVTestwith data: [Contact{phone='88008885553', email='iv888@gm.com'}]
+04:54:48.276 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.xpath: //button[contains(.,'Sign Out')]
+04:54:58.318 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.xpath: //button[contains(.,'Sign Out')] found.
+04:54:58.318 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.xpath: //a[contains(.,'LOGIN')]
+04:54:58.334 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.xpath: //a[contains(.,'LOGIN')] found.
+04:54:58.405 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: [placeholder='Email']
+04:54:58.425 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: [placeholder='Email'] found.
+04:54:58.475 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: [placeholder='Email']
+04:54:58.487 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: [placeholder='Email'] found.
+04:54:58.515 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: [placeholder='Email']
+04:54:58.524 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: [placeholder='Email'] found.
+04:54:58.575 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: [placeholder='Password']
+04:54:58.593 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: [placeholder='Password'] found.
+04:54:58.637 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: [placeholder='Password']
+04:54:58.645 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: [placeholder='Password'] found.
+04:54:58.673 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: [placeholder='Password']
+04:54:58.682 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: [placeholder='Password'] found.
+04:54:58.717 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.xpath: //button[contains(.,'Login')]
+04:54:58.732 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.xpath: //button[contains(.,'Login')] found.
+04:54:58.776 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: a:nth-child(5)
+04:54:59.217 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: a:nth-child(5) found.
+04:54:59.263 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: [placeholder='Name']
+04:54:59.279 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: [placeholder='Name'] found.
+04:54:59.330 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: [placeholder='Name']
+04:54:59.339 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: [placeholder='Name'] found.
+04:54:59.366 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: [placeholder='Name']
+04:54:59.378 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: [placeholder='Name'] found.
+04:54:59.414 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(2)
+04:54:59.430 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(2) found.
+04:54:59.483 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(2)
+04:54:59.494 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(2) found.
+04:54:59.525 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(2)
+04:54:59.532 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(2) found.
+04:54:59.566 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(3)
+04:54:59.592 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(3) found.
+04:54:59.675 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(3)
+04:54:59.692 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(3) found.
+04:54:59.736 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(3)
+04:54:59.747 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(3) found.
+04:54:59.790 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(4)
+04:54:59.804 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(4) found.
+04:54:59.852 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(4)
+04:54:59.859 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(4) found.
+04:54:59.884 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(4)
+04:54:59.892 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(4) found.
+04:54:59.926 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(5)
+04:54:59.939 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(5) found.
+04:54:59.987 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(5)
+04:54:59.996 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(5) found.
+04:55:00.026 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(5)
+04:55:00.033 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(5) found.
+04:55:00.064 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(6)
+04:55:00.080 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(6) found.
+04:55:00.128 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(6)
+04:55:00.136 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(6) found.
+04:55:00.162 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(6)
+04:55:00.169 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(6) found.
+04:55:00.206 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: .add_form__2rsm2 button
+04:55:00.222 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: .add_form__2rsm2 button found.
+04:55:00.398 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: .contact-item_card__2SOIM
+04:55:00.627 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: .contact-item_card__2SOIM found.
+04:55:00.627 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: .contact-item_card__2SOIM
+04:55:00.642 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: .contact-item_card__2SOIM found.
+04:55:00.686 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.xpath: //button[text()='Remove']
+04:55:00.703 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.xpath: //button[text()='Remove'] found.
+04:55:01.746 [Test worker] INFO  ru.company.qa2.tests.TestBase - PASSED: test method addContactPositiveFromCSVTest
+04:55:01.747 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start test addContactPositiveFromCSVTestwith data: [Contact{phone='88007775553', email='iv777@gm.com'}]
+04:55:01.748 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.xpath: //button[contains(.,'Sign Out')]
+04:55:01.759 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.xpath: //button[contains(.,'Sign Out')] found.
+04:55:01.760 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: a:nth-child(5)
+04:55:01.769 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: a:nth-child(5) found.
+04:55:01.797 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: [placeholder='Name']
+04:55:01.808 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: [placeholder='Name'] found.
+04:55:01.859 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: [placeholder='Name']
+04:55:01.868 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: [placeholder='Name'] found.
+04:55:01.897 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: [placeholder='Name']
+04:55:01.904 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: [placeholder='Name'] found.
+04:55:01.935 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(2)
+04:55:01.944 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(2) found.
+04:55:01.996 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(2)
+04:55:02.005 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(2) found.
+04:55:02.031 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(2)
+04:55:02.039 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(2) found.
+04:55:02.072 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(3)
+04:55:02.080 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(3) found.
+04:55:02.130 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(3)
+04:55:02.140 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(3) found.
+04:55:02.167 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(3)
+04:55:02.175 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(3) found.
+04:55:02.210 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(4)
+04:55:02.217 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(4) found.
+04:55:02.264 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(4)
+04:55:02.273 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(4) found.
+04:55:02.295 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(4)
+04:55:02.305 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(4) found.
+04:55:02.342 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(5)
+04:55:02.350 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(5) found.
+04:55:02.397 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(5)
+04:55:02.406 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(5) found.
+04:55:02.433 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(5)
+04:55:02.441 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(5) found.
+04:55:02.476 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(6)
+04:55:02.485 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(6) found.
+04:55:02.534 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(6)
+04:55:02.542 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(6) found.
+04:55:02.567 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(6)
+04:55:02.573 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(6) found.
+04:55:02.608 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: .add_form__2rsm2 button
+04:55:02.615 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: .add_form__2rsm2 button found.
+04:55:02.767 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: .contact-item_card__2SOIM
+04:55:02.945 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: .contact-item_card__2SOIM found.
+04:55:02.946 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: .contact-item_card__2SOIM
+04:55:02.952 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: .contact-item_card__2SOIM found.
+04:55:02.996 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.xpath: //button[text()='Remove']
+04:55:03.004 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.xpath: //button[text()='Remove'] found.
+04:55:04.048 [Test worker] INFO  ru.company.qa2.tests.TestBase - PASSED: test method addContactPositiveFromCSVTest
+04:55:04.049 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start test addContactPositiveFromCSVTestwith data: [Contact{phone='88009995553', email='iv999@gm.com'}]
+04:55:04.049 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.xpath: //button[contains(.,'Sign Out')]
+04:55:04.059 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.xpath: //button[contains(.,'Sign Out')] found.
+04:55:04.059 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: a:nth-child(5)
+04:55:04.068 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: a:nth-child(5) found.
+04:55:04.096 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: [placeholder='Name']
+04:55:04.107 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: [placeholder='Name'] found.
+04:55:04.156 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: [placeholder='Name']
+04:55:04.164 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: [placeholder='Name'] found.
+04:55:04.191 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: [placeholder='Name']
+04:55:04.199 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: [placeholder='Name'] found.
+04:55:04.228 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(2)
+04:55:04.236 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(2) found.
+04:55:04.281 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(2)
+04:55:04.288 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(2) found.
+04:55:04.315 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(2)
+04:55:04.323 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(2) found.
+04:55:04.351 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(3)
+04:55:04.360 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(3) found.
+04:55:04.407 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(3)
+04:55:04.412 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(3) found.
+04:55:04.437 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(3)
+04:55:04.443 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(3) found.
+04:55:04.475 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(4)
+04:55:04.480 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(4) found.
+04:55:04.524 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(4)
+04:55:04.533 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(4) found.
+04:55:04.558 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(4)
+04:55:04.564 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(4) found.
+04:55:04.598 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(5)
+04:55:04.607 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(5) found.
+04:55:04.653 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(5)
+04:55:04.663 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(5) found.
+04:55:04.693 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(5)
+04:55:04.703 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(5) found.
+04:55:04.740 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(6)
+04:55:04.749 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(6) found.
+04:55:04.810 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(6)
+04:55:04.817 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(6) found.
+04:55:04.844 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(6)
+04:55:04.850 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(6) found.
+04:55:04.881 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: .add_form__2rsm2 button
+04:55:04.889 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: .add_form__2rsm2 button found.
+04:55:05.045 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: .contact-item_card__2SOIM
+04:55:05.211 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: .contact-item_card__2SOIM found.
+04:55:05.211 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: .contact-item_card__2SOIM
+04:55:05.219 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: .contact-item_card__2SOIM found.
+04:55:05.262 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.xpath: //button[text()='Remove']
+04:55:05.271 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.xpath: //button[text()='Remove'] found.
+04:55:06.321 [Test worker] INFO  ru.company.qa2.tests.TestBase - PASSED: test method addContactPositiveFromCSVTest
+04:55:06.323 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start test addContactPositiveFromDataProviderTestwith data: [Ivan, Ivanov, 88007775553, iv@gm.com, Ivanovo, description]
+04:55:06.324 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.xpath: //button[contains(.,'Sign Out')]
+04:55:06.331 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.xpath: //button[contains(.,'Sign Out')] found.
+04:55:06.331 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: a:nth-child(5)
+04:55:06.339 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: a:nth-child(5) found.
+04:55:06.361 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: [placeholder='Name']
+04:55:06.369 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: [placeholder='Name'] found.
+04:55:06.425 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: [placeholder='Name']
+04:55:06.434 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: [placeholder='Name'] found.
+04:55:06.462 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: [placeholder='Name']
+04:55:06.471 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: [placeholder='Name'] found.
+04:55:06.503 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(2)
+04:55:06.512 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(2) found.
+04:55:06.569 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(2)
+04:55:06.577 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(2) found.
+04:55:06.608 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(2)
+04:55:06.615 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(2) found.
+04:55:06.645 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(3)
+04:55:06.653 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(3) found.
+04:55:06.705 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(3)
+04:55:06.713 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(3) found.
+04:55:06.740 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(3)
+04:55:06.748 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(3) found.
+04:55:06.781 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(4)
+04:55:06.789 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(4) found.
+04:55:06.839 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(4)
+04:55:06.846 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(4) found.
+04:55:06.872 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(4)
+04:55:06.877 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(4) found.
+04:55:06.907 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(5)
+04:55:06.913 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(5) found.
+04:55:06.962 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(5)
+04:55:06.971 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(5) found.
+04:55:06.994 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(5)
+04:55:07.003 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(5) found.
+04:55:07.032 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(6)
+04:55:07.040 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(6) found.
+04:55:07.086 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(6)
+04:55:07.094 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(6) found.
+04:55:07.119 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(6)
+04:55:07.126 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(6) found.
+04:55:07.160 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: .add_form__2rsm2 button
+04:55:07.168 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: .add_form__2rsm2 button found.
+04:55:07.320 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: .contact-item_card__2SOIM
+04:55:17.347 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: .contact-item_card__2SOIM found.
+04:55:18.348 [Test worker] INFO  ru.company.qa2.tests.TestBase - PASSED: test method addContactPositiveFromDataProviderTest
+04:55:18.349 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start test addContactPositiveFromDataProviderTestwith data: [Ivan, Ivanov, 88004445553, iv1@gm.com, Ivanovo, description]
+04:55:18.349 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.xpath: //button[contains(.,'Sign Out')]
+04:55:18.356 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.xpath: //button[contains(.,'Sign Out')] found.
+04:55:18.356 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: a:nth-child(5)
+04:55:18.363 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: a:nth-child(5) found.
+04:55:18.395 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: [placeholder='Name']
+04:55:18.402 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: [placeholder='Name'] found.
+04:55:18.427 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: [placeholder='Name']
+04:55:18.434 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: [placeholder='Name'] found.
+04:55:18.452 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: [placeholder='Name']
+04:55:18.461 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: [placeholder='Name'] found.
+04:55:18.497 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(2)
+04:55:18.517 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(2) found.
+04:55:18.552 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(2)
+04:55:18.560 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(2) found.
+04:55:18.583 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(2)
+04:55:18.590 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(2) found.
+04:55:18.629 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(3)
+04:55:18.640 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(3) found.
+04:55:18.673 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(3)
+04:55:18.681 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(3) found.
+04:55:18.705 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(3)
+04:55:18.711 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(3) found.
+04:55:18.757 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(4)
+04:55:18.767 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(4) found.
+04:55:18.801 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(4)
+04:55:18.810 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(4) found.
+04:55:18.832 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(4)
+04:55:18.840 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(4) found.
+04:55:18.881 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(5)
+04:55:18.895 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(5) found.
+04:55:18.928 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(5)
+04:55:18.934 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(5) found.
+04:55:18.957 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(5)
+04:55:18.963 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(5) found.
+04:55:19.001 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(6)
+04:55:19.013 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(6) found.
+04:55:19.049 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(6)
+04:55:19.057 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(6) found.
+04:55:19.076 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(6)
+04:55:19.084 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(6) found.
+04:55:19.131 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: .add_form__2rsm2 button
+04:55:19.143 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: .add_form__2rsm2 button found.
+04:55:19.283 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: .contact-item_card__2SOIM
+04:55:19.509 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: .contact-item_card__2SOIM found.
+04:55:19.509 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: .contact-item_card__2SOIM
+04:55:19.520 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: .contact-item_card__2SOIM found.
+04:55:19.562 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.xpath: //button[text()='Remove']
+04:55:19.573 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.xpath: //button[text()='Remove'] found.
+04:55:20.615 [Test worker] INFO  ru.company.qa2.tests.TestBase - PASSED: test method addContactPositiveFromDataProviderTest
+04:55:20.616 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start test addContactPositiveFromDataProviderTestwith data: [Ivan, Ivanov, 88002225553, iv78@gm.com, Ivanovo, description]
+04:55:20.616 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.xpath: //button[contains(.,'Sign Out')]
+04:55:20.625 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.xpath: //button[contains(.,'Sign Out')] found.
+04:55:20.625 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: a:nth-child(5)
+04:55:20.633 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: a:nth-child(5) found.
+04:55:20.666 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: [placeholder='Name']
+04:55:20.677 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: [placeholder='Name'] found.
+04:55:20.723 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: [placeholder='Name']
+04:55:20.732 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: [placeholder='Name'] found.
+04:55:20.759 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: [placeholder='Name']
+04:55:20.766 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: [placeholder='Name'] found.
+04:55:20.791 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(2)
+04:55:20.800 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(2) found.
+04:55:20.842 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(2)
+04:55:20.850 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(2) found.
+04:55:20.877 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(2)
+04:55:20.883 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(2) found.
+04:55:20.909 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(3)
+04:55:20.917 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(3) found.
+04:55:20.960 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(3)
+04:55:20.969 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(3) found.
+04:55:20.994 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(3)
+04:55:21.003 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(3) found.
+04:55:21.032 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(4)
+04:55:21.041 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(4) found.
+04:55:21.082 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(4)
+04:55:21.089 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(4) found.
+04:55:21.114 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(4)
+04:55:21.121 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(4) found.
+04:55:21.151 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(5)
+04:55:21.159 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(5) found.
+04:55:21.207 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(5)
+04:55:21.214 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(5) found.
+04:55:21.239 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(5)
+04:55:21.247 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(5) found.
+04:55:21.274 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(6)
+04:55:21.282 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(6) found.
+04:55:21.326 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(6)
+04:55:21.335 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(6) found.
+04:55:21.358 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(6)
+04:55:21.366 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(6) found.
+04:55:21.401 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: .add_form__2rsm2 button
+04:55:21.410 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: .add_form__2rsm2 button found.
+04:55:21.563 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: .contact-item_card__2SOIM
+04:55:21.730 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: .contact-item_card__2SOIM found.
+04:55:21.731 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: .contact-item_card__2SOIM
+04:55:21.739 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: .contact-item_card__2SOIM found.
+04:55:21.777 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.xpath: //button[text()='Remove']
+04:55:21.785 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.xpath: //button[text()='Remove'] found.
+04:55:22.822 [Test worker] INFO  ru.company.qa2.tests.TestBase - PASSED: test method addContactPositiveFromDataProviderTest
+04:55:22.823 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start test addContactPositiveTestwith data: []
+04:55:22.824 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.xpath: //button[contains(.,'Sign Out')]
+04:55:22.832 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.xpath: //button[contains(.,'Sign Out')] found.
+04:55:22.839 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: a:nth-child(5)
+04:55:22.845 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: a:nth-child(5) found.
+04:55:22.873 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: [placeholder='Name']
+04:55:22.880 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: [placeholder='Name'] found.
+04:55:22.932 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: [placeholder='Name']
+04:55:22.941 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: [placeholder='Name'] found.
+04:55:22.965 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: [placeholder='Name']
+04:55:22.973 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: [placeholder='Name'] found.
+04:55:23.002 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(2)
+04:55:23.010 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(2) found.
+04:55:23.050 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(2)
+04:55:23.058 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(2) found.
+04:55:23.082 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(2)
+04:55:23.088 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(2) found.
+04:55:23.116 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(3)
+04:55:23.123 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(3) found.
+04:55:23.167 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(3)
+04:55:23.175 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(3) found.
+04:55:23.197 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(3)
+04:55:23.205 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(3) found.
+04:55:23.234 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(4)
+04:55:23.242 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(4) found.
+04:55:23.286 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(4)
+04:55:23.293 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(4) found.
+04:55:23.317 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(4)
+04:55:23.326 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(4) found.
+04:55:23.359 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(5)
+04:55:23.368 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(5) found.
+04:55:23.412 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(5)
+04:55:23.421 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(5) found.
+04:55:23.448 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(5)
+04:55:23.454 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(5) found.
+04:55:23.484 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(6)
+04:55:23.495 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(6) found.
+04:55:23.542 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(6)
+04:55:23.549 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(6) found.
+04:55:23.575 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: input:nth-child(6)
+04:55:23.581 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: input:nth-child(6) found.
+04:55:23.613 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.cssSelector: .add_form__2rsm2 button
+04:55:23.620 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.cssSelector: .add_form__2rsm2 button found.
+04:55:24.771 [Test worker] INFO  ru.company.qa2.tests.TestBase - Start search By.xpath: //h2
+04:55:24.784 [Test worker] INFO  ru.company.qa2.tests.TestBase - By.xpath: //h2 found.
+04:55:24.863 [Test worker] INFO  ru.company.qa2.tests.TestBase - PASSED: test method addContactPositiveTest
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
