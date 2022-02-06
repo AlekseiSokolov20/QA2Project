@@ -1,4 +1,4 @@
-package ru.company.qa2;
+package ru.company.qa2.models;
 
 public class User {
     private  String email;

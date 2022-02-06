@@ -1,21 +1,24 @@
-package ru.company.qa2;
+package ru.company.qa2.tests;
 
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import ru.company.qa2.models.Contact;
+import ru.company.qa2.models.User;
 
 public class RemoveContactTests extends TestBase{
 
     @BeforeMethod
     public void ensurePreconditions(){
-        if(!isSignOutTabPresent()){
-            clickOnLoginTab();
+        if(!app.getUser().isSignOutTabPresent()){
+            app.getUser().clickOnLoginTab();
 
-            login(new User().setEmail("regMe12@gm.com").setPassword( "Abc1234$"));
+            app.getUser().login(new User().setEmail("neuer@gm.com").setPassword( "Neuer12345~"));
         }
         int i = (int) ((System.currentTimeMillis()) / 1000) % 3600;
-        addNewContact("Aleksei", "Sokolov", "12345" + i, "qwe" + i + "@gm.com", "Helsinki", "description");
+        app.getContact().addNewContact(new Contact().setName("Aleksei").setSurName("Sokolov")
+                .setPhone("12345" + i).setEmail("qwe" + i + "@gm.com")
+                .setAddress("Helsinki").setDescription("description"));
 
        /* click(By.cssSelector("a:nth-child(5)"));
         pause(1);
@@ -30,11 +33,12 @@ public class RemoveContactTests extends TestBase{
     }
 
     @Test
-    public void RemoveContactTest(){
-        int sizeBefore = sizeOfContacts();
-        removeContact();
-        int sizeAfter = sizeOfContacts();
-        Assert.assertEquals(sizeBefore, sizeAfter);
+    public void RemoveContactTest() throws InterruptedException {
+        int sizeBefore = app.getContact().sizeOfContacts();
+        app.getContact().removeContact();
+        Thread.sleep(2000);
+        int sizeAfter = app.getContact().sizeOfContacts();
+        Assert.assertEquals(sizeBefore-1, sizeAfter);
     }
 
 }
